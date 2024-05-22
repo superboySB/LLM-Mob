@@ -14,6 +14,7 @@ If you already have an account and have set up API keys, skip this step. Otherwi
 ### 2. Run the scripts to start the prediction process.
 Specify your OpenAI API Key in the beginning of the script `llm-mob.py`, change the parameters in the main function if necessary and start the prediction process by simply running the sripts
 ```bash
+conda activate proagent
 python llm-mob.py
 ```
 The log file will be stored in `/logs` and prediction results will be stored in `/output`.

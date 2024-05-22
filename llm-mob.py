@@ -589,6 +589,7 @@ def get_unqueried_user(dataname, output_dir='output/'):
 
 def main():
     client = OpenAI(
+        base_url='https://api.openai-proxy.org/v1',
         api_key=os.environ['OPENAI_API_KEY']
     )
 
